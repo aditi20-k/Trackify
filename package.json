@@ -1,0 +1,19 @@
+{
+  "name": "expensetracker",
+  "version": "1.0.0",
+  "description": "Fullstack Expense Tracker App",
+  "scripts": {
+    "install:client": "cd client && npm install",
+    "install:server": "cd server && npm install",
+    "postinstall": "npm run install:client && npm run install:server",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
